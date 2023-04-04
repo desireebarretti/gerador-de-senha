@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat+Alternates&family=Righteous&family=Roboto&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+
+    <title>Gerador de Senha</title>
+</head>
+
+<body>
+    <main>
+        <h1>Gerador de Senha</h1>
+        <form>
+            <div id="tamanho">
+                <label for="tamanho-senha">Tamanho de caracteres</label>
+                <input type="range" name="" id="tamanho-senha" min="1" max="25" value="1">
+            </div>
+            <input type="button" id="btn-gerar" value="Gerar Senha">
+        </form>
+
+        <section>
+            <p>Sua senha gerada foi:</p>
+            <input type="text" name="" id="senha-gerada">
+            <div id="display-copiar-senha">
+                <input type="text" id="copiar-senha" value="Clique na senha para copiar">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

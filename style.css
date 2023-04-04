@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+}
+main {
+    background-color: rgb(40, 76, 76);
+    width: 500px;
+    margin: auto;
+    padding: 100px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.464);
+}
+h1 {
+    font-family: 'Amatic SC', cursiva;
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+div#tamanho {
+    display: flex;
+    flex-direction: column;
+}
+input#tamanho-senha {
+    appearance: auto;
+    cursor: grab;
+}
+#btn-gerar {
+    width: 300px;
+    background-color: green;
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2em 0px;
+    font-size: bolder;
+    cursor: pointer;
+}
+#btn-gerar:hover {
+    color: green;
+    background-color: white;
+    transform: scale(1.1);
+    transition: .75s;
+}
+section p {
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 1em;
+}
+#senha-gerada {
+    text-align: center;
+    width: 400px;
+    margin-bottom: 1em;
+    padding: .6em;
+    background-color: rgba(124, 210, 124, 0.647);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#copiar-senha {
+    width: 400px;
+    padding: .5em;
+    background-color: rgba(0, 0, 0, 0.698);
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none;
+}
