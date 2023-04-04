@@ -77,4 +77,5 @@ section p {
     text-align: center;
     border: none;
     outline: none;
+    border-radius: 5px;
 }
