@@ -4,11 +4,11 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.767);
+    background-color: #00b4d8;
     color: white;
 }
 main {
-    background-color: rgb(40, 76, 76);
+    background-color: #03045e;
     width: 500px;
     margin: auto;
     padding: 100px;
@@ -35,7 +35,7 @@ input#tamanho-senha {
 }
 #btn-gerar {
     width: 300px;
-    background-color: green;
+    background-color: #0077b6;
     padding: 8px;
     color: white;
     border: none;
@@ -45,9 +45,10 @@ input#tamanho-senha {
     margin: 2em 0px;
     font-size: bolder;
     cursor: pointer;
+    margin-left: 20%;
 }
 #btn-gerar:hover {
-    color: green;
+    color: #0077b6;
     background-color: white;
     transform: scale(1.1);
     transition: .75s;
@@ -62,12 +63,13 @@ section p {
     width: 400px;
     margin-bottom: 1em;
     padding: .6em;
-    background-color: rgba(124, 210, 124, 0.647);
+    background-color: #ade8f4;
     outline: none;
     border: none;
-    color: white;
+    color: rgb(99, 99, 99);
     font-size: 20px;
     border-radius: 5px;
+    margin-left: 7%;
 }
 #copiar-senha {
     width: 400px;
@@ -78,4 +80,6 @@ section p {
     border: none;
     outline: none;
     border-radius: 5px;
+    display: none;
+    margin-left: 7%;
 }
