@@ -4,11 +4,11 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #00b4d8;
+    background-color: #b8d0eb;
     color: white;
 }
 main {
-    background-color: #03045e;
+    background-color: #6f2dbd;
     width: 500px;
     margin: auto;
     padding: 100px;
@@ -36,9 +36,9 @@ input#tamanho-senha {
 }
 #btn-gerar {
     width: 300px;
-    background-color: #0077b6;
+    background-color: #b298dc;
     padding: 8px;
-    color: white;
+    color: #444;
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
@@ -49,8 +49,9 @@ input#tamanho-senha {
     margin-left: 20%;
 }
 #btn-gerar:hover {
-    color: #0077b6;
-    background-color: #ffffff;
+    color: #444;
+    background-color: #b9faf8;
+    border: 2px solid #a663cc;
     transform: scale(1.1);
     transition: .75s;
 }
@@ -65,25 +66,25 @@ section p {
     width: 400px;
     margin-bottom: 1em;
     padding: .6em;
-    background-color: #ade8f4;
+    background-color: #b9faf8;
     outline: none;
     border: none;
-    color: rgb(99, 99, 99);
+    color: #444;
     font-size: 20px;
     border-radius: 5px;
     margin-left: 7%;
     display: none;
 }
 #copiar-senha {
-    width: 400px;
+    width: 50px;
     padding: .5em;
-    background-color: #000000b2;
-    color: white;
+    background-color: #b9faf8;
+    color: #444;
     text-align: center;
     border: none;
     outline: none;
     border-radius: 5px;
     display: none;
-    margin-left: 7%;
+    margin: auto;
 }
 

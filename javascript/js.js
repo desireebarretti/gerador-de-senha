@@ -9,6 +9,7 @@ let copiarSenha = document.querySelector('#copiar-senha');
 
 // este é o algoritmo da geração de senha
 let charset = "abcdefghijlmnopqurstuvxzABCDEFGHIJKLMNOPQRSTUVXZ0123456789!@-&*"
+let pass = ""
 
 txtTamanhoSenha.innerHTML = inputRange.value
 
@@ -18,11 +19,16 @@ function modificarRange() {
 
 function gerarSenha() {
    senhaGerada.style.display = 'block';
-   copiarSenha.style.display = 'block';
+   copiarSenha.style.display = 'none';
 
    let novaSenha = "";
    for(i = 0, n = charset.length; i < inputRange.value; i++){   
         novaSenha += charset.charAt(Math.random()*n)
     }
     console.log(senhaGerada.value = novaSenha)
+    
+}
+
+function copiarCodigo() {
+    senhaGerada.select()
 }
