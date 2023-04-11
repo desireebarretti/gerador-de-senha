@@ -16,6 +16,7 @@
    - HTML, CSS e JavaScript
 
 6. **PÁGINA**
+   - https://gerador-de-senha-snowy-two.vercel.app
    - https://desireebarretti.github.io/gerador-de-senha/
 
 ---
